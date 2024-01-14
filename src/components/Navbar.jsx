@@ -16,7 +16,7 @@ function Navbar() {
                     </div>            
                     {<PageLinks parentClass='nav-links' itemClass='nav-link' />}
                     <ul className="nav-icons">
-                    {socialLinks.map( (link) =>  <SocialLink key={link.id} id={link.id} itemClass={`nav-icon`} />)}
+                    {socialLinks.map( (link) =>  <SocialLink key={link.id} icon={link.icon} itemClass={`nav-icon`} />)}
                     </ul>
                 </div>
             </nav>

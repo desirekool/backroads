@@ -1,6 +1,6 @@
-A simple website for a Tour Services provider
+A simple website for a Tour Services provider.
 
-The web Site is part learn React course
+The website is part of learn React series.
 
-named backroad2 because the original project refused to start without giving any reason (giving a cryptic 404 error for the index.htm file);
+Rewrite the code due to a cryptic 404 error for the index.htm file;
 

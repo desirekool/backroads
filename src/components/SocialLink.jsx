@@ -1,8 +1,9 @@
+/* eslint-disable react/prop-types */
 const SocialLink = (props) => {
-    const {href, icon, itemClass} = props;
+    const {icon, itemClass} = props;    
     return (
         <li>
-        <a href={href} target="_blank" className={itemClass} rel="noreferrer">
+        <a href="#" target="_blank" className={itemClass} rel="noreferrer">
             <i className={icon}></i>
         </a>
     </li>
